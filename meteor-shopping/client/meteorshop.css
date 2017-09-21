@@ -1,0 +1,85 @@
+/* CSS declarations go here */
+table.list{
+    text-align: left;
+     font-size: 25px;
+      padding-left: 15px;
+      padding-bottom: -10px;
+      padding-top: -10;
+      font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 10%;
+   height: 10%;
+
+}
+th {
+    border: 0px solid #dddddd;
+    text-align: left;
+    padding: 2px;
+
+}
+
+
+span.about{
+  text-align: left;
+   font-size: 25px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 10;
+
+
+
+
+
+
+}
+span.container{
+    text-align: left;
+     font-size: 25px;
+      padding-left: 0px;
+      padding-bottom: 10px;
+      padding-top: 10;
+
+
+
+}
+span.Home{
+    text-align: left;
+     font-size: 25px;
+      padding-left: 0px;
+      padding-bottom: 10px;
+      padding-top: 10;
+
+
+
+}
+
+
+.modal-backdrop {
+    /* bug fix - no overlay */
+    display:none;
+    background-color: rgba(255, 255, 255, .15);
+
+
+}
+#myModal{
+    /* bug fix - no overlay */
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.075);
+
+
+}
+
+
+#myModalNorm {
+    /* bug fix - no overlay */
+
+    background-color: rgba(0, 0, 0, 0.075);
+
+width: auto;
+height: auto;
+
+}
+.modal .modal-content {
+    padding: 1px;
+}
